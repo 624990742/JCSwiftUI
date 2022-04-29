@@ -22,6 +22,7 @@
 		595AD918281A6A95002807EC /* SwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595AD917281A6A95002807EC /* SwiftUIDemoTests.swift */; };
 		595AD922281A6A95002807EC /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595AD921281A6A95002807EC /* SwiftUIDemoUITests.swift */; };
 		595AD924281A6A95002807EC /* SwiftUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595AD923281A6A95002807EC /* SwiftUIDemoUITestsLaunchTests.swift */; };
+		59B11E70281BBF5B0045B45A /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B11E6F281BBF5B0045B45A /* FavoriteButton.swift */; };
 		59B6E51E281A9032004ACFB8 /* ZStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6E51D281A9031004ACFB8 /* ZStackContentView.swift */; };
 		59B6E521281A9282004ACFB8 /* VStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6E520281A9282004ACFB8 /* VStackContentView.swift */; };
 		59B6E525281A94D9004ACFB8 /* HStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6E524281A94D9004ACFB8 /* HStackContentView.swift */; };
@@ -67,6 +68,7 @@
 		595AD91D281A6A95002807EC /* SwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		595AD921281A6A95002807EC /* SwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		595AD923281A6A95002807EC /* SwiftUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59B11E6F281BBF5B0045B45A /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		59B6E51D281A9031004ACFB8 /* ZStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackContentView.swift; sourceTree = "<group>"; };
 		59B6E520281A9282004ACFB8 /* VStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackContentView.swift; sourceTree = "<group>"; };
 		59B6E524281A94D9004ACFB8 /* HStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackContentView.swift; sourceTree = "<group>"; };
@@ -115,11 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				592D66CA281B7A0D00A36D99 /*  LandmarksAppConentView.swift */,
-				592D66CE281B7C7900A36D99 /* LandmarkList.swift */,
-				592D66D7281B819200A36D99 /* MapView.swift */,
-				592D66D9281B81A700A36D99 /* CircleImage.swift */,
-				592D66DB281B81BE00A36D99 /* LandmarkDetail.swift */,
-				592D66DD281B864D00A36D99 /* LandmarkRow.swift */,
+				59B11E6E281BBF410045B45A /* Landmarks */,
+				59B11E6D281BBF250045B45A /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +194,26 @@
 				595AD923281A6A95002807EC /* SwiftUIDemoUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIDemoUITests;
+			sourceTree = "<group>";
+		};
+		59B11E6D281BBF250045B45A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				592D66D7281B819200A36D99 /* MapView.swift */,
+				592D66D9281B81A700A36D99 /* CircleImage.swift */,
+				59B11E6F281BBF5B0045B45A /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		59B11E6E281BBF410045B45A /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				592D66CE281B7C7900A36D99 /* LandmarkList.swift */,
+				592D66DB281B81BE00A36D99 /* LandmarkDetail.swift */,
+				592D66DD281B864D00A36D99 /* LandmarkRow.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		59B6E51C281A8FF7004ACFB8 /* ZStackDemo */ = {
@@ -388,6 +407,7 @@
 				59B6E51E281A9032004ACFB8 /* ZStackContentView.swift in Sources */,
 				59B6E528281A9671004ACFB8 /* AppleContentView.swift in Sources */,
 				59FBFD69281AA1C500B7005F /* AppleCircleImageView.swift in Sources */,
+				59B11E70281BBF5B0045B45A /* FavoriteButton.swift in Sources */,
 				592D66DC281B81BE00A36D99 /* LandmarkDetail.swift in Sources */,
 				592D66DE281B864D00A36D99 /* LandmarkRow.swift in Sources */,
 				592D66CF281B7C7900A36D99 /* LandmarkList.swift in Sources */,
