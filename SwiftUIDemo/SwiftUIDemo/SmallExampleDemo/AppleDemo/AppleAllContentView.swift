@@ -10,7 +10,7 @@ import SwiftUI
 struct AppleAllContentView: View {
     var body: some View {
         VStack {
-            MapView()
+            AppleMapView()
               .ignoresSafeArea(edges: .top)
               .frame(height: 300)
             
