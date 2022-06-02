@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Profile {
     var username: String
@@ -23,7 +24,6 @@ struct Profile {
             case winter = "☃️"
 
             var id: String { rawValue }
-        }
+     }
 }
-
 
