@@ -15,15 +15,12 @@ struct LandmarkList: View {
         }
     }
     
-    
-    
     var body: some View {
         NavigationView {
             List {
                 Toggle(isOn: $showFavoritesOnly){
                     Text("Favorites only")
                 }
-                
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
@@ -32,7 +29,7 @@ struct LandmarkList: View {
                     }
                  }
                }
-            .navigationTitle("Landmarks")
+            .navigationTitle("码农晨仔出品")
             .navigationBarTitleDisplayMode(.large)
             .navigationBarItems(leading:Button("左侧按钮") {
                                       print("点击了左侧")

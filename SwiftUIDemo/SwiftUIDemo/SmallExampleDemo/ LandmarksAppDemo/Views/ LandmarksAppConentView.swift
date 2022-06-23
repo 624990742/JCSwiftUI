@@ -13,21 +13,29 @@ struct LandmarksAppConentView: View {
     enum Tab {
         case featured
         case list
+        case testList
     }
     
     var body: some View {
         TabView(selection: $selection) {
                 CategoryHome()
                 .tabItem {
-                    Label("Featured", systemImage: "star")
+                    Label("首页", systemImage: "star")
                 }
                 .tag(Tab.featured)
 
             LandmarkList()
                .tabItem {
-                 Label("List", systemImage: "list.bullet")
+                 Label("地标列表", systemImage: "list.bullet")
                 }
                .tag(Tab.list)
+            
+            
+            AllTestContentView()
+                .tabItem {
+                  Label("学习demo列表", systemImage: "list.bullet")
+                 }
+                .tag(Tab.testList)
             }
     }
 }
