@@ -149,6 +149,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		591CE8A528640C0B00F185DC /* AllTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				59B6E526281A964D004ACFB8 /* AppleDemo */,
+				59B6E523281A94BD004ACFB8 /* HStackDemo */,
+				59B6E51F281A924C004ACFB8 /* VStackDemo */,
+				59B6E51C281A8FF7004ACFB8 /* ZStackDemo */,
+			);
+			path = AllTestDemo;
+			sourceTree = "<group>";
+		};
 		592D66C9281B79E900A36D99 /*  LandmarksAppDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,10 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				592D66C9281B79E900A36D99 /*  LandmarksAppDemo */,
-				59B6E526281A964D004ACFB8 /* AppleDemo */,
-				59B6E523281A94BD004ACFB8 /* HStackDemo */,
-				59B6E51F281A924C004ACFB8 /* VStackDemo */,
-				59B6E51C281A8FF7004ACFB8 /* ZStackDemo */,
+				591CE8A528640C0B00F185DC /* AllTestDemo */,
 			);
 			path = SmallExampleDemo;
 			sourceTree = "<group>";
