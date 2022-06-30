@@ -26,6 +26,7 @@
 		595AD918281A6A95002807EC /* SwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595AD917281A6A95002807EC /* SwiftUIDemoTests.swift */; };
 		595AD922281A6A95002807EC /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595AD921281A6A95002807EC /* SwiftUIDemoUITests.swift */; };
 		595AD924281A6A95002807EC /* SwiftUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595AD923281A6A95002807EC /* SwiftUIDemoUITestsLaunchTests.swift */; };
+		59668B242865537F001C224A /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59668B232865537F001C224A /* View+Extension.swift */; };
 		597BE1F328378E6600DA1ECF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597BE1F228378E6600DA1ECF /* Profile.swift */; };
 		597D9E92282B5D73001014E4 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 597D9E91282B5D73001014E4 /* hikeData.json */; };
 		597D9E95282B5E2E001014E4 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597D9E94282B5E2E001014E4 /* Hike.swift */; };
@@ -99,6 +100,7 @@
 		595AD91D281A6A95002807EC /* SwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		595AD921281A6A95002807EC /* SwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		595AD923281A6A95002807EC /* SwiftUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59668B232865537F001C224A /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		597BE1F228378E6600DA1ECF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		597D9E91282B5D73001014E4 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		597D9E94282B5E2E001014E4 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
@@ -168,9 +170,10 @@
 		591CE8A628640C4D00F185DC /* SwiftUIStudyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5949BA85286ADAAD00365A5F /* View */,
+				59668B222865535E001C224A /* Extension */,
 				591CE8AD2864116B00F185DC /* Model */,
 				591CE8B1286436AC00F185DC /* common */,
-				591CE8A728640C9700F185DC /* TapMeDemo */,
 			);
 			path = SwiftUIStudyDemo;
 			sourceTree = "<group>";
@@ -257,6 +260,22 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		5949BA85286ADAAD00365A5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5949BA86286ADABA00365A5F /* New Group */,
+				591CE8A728640C9700F185DC /* TapMeDemo */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5949BA86286ADABA00365A5F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		595AD8FA281A6A94002807EC = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +330,14 @@
 				595AD923281A6A95002807EC /* SwiftUIDemoUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIDemoUITests;
+			sourceTree = "<group>";
+		};
+		59668B222865535E001C224A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				59668B232865537F001C224A /* View+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		597BE1F128378E5100DA1ECF /* Profiles */ = {
@@ -584,6 +611,7 @@
 				59B6E51E281A9032004ACFB8 /* ZStackContentView.swift in Sources */,
 				59CE1B6B282A71DB00219C81 /* RotatedBadgeSymbol.swift in Sources */,
 				59FFE623283652BE002C652C /* CategoryRow.swift in Sources */,
+				59668B242865537F001C224A /* View+Extension.swift in Sources */,
 				59B6E528281A9671004ACFB8 /* AppleContentView.swift in Sources */,
 				59CE1B69282A719A00219C81 /* BadgeSymbol.swift in Sources */,
 				59CE1B63282A5DAE00219C81 /* HexagonParameters.swift in Sources */,

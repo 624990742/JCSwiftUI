@@ -11,6 +11,7 @@ class ListModel: Identifiable {
     var name:String = ""
     var content:String = ""
     init(index: Int,nameStr: String,contentStr: String){
+        self.index = index
         name = nameStr
         content = contentStr
     }

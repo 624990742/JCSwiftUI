@@ -34,4 +34,5 @@ struct RowDetail: View {
             .navigationTitle("第\(model.index)页")
         }
     }
+    
 }

@@ -20,7 +20,7 @@ struct AllTestContentView: View {
                         ListCustomRow(model: item)
                     })
                 }
-            }
+        }
         }
     }
 

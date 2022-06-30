@@ -22,6 +22,8 @@ struct TapMeContenView: View {
             Text("您未点击！")
             }
         }
+        .frame(width: 200, height: 200, alignment: .center)
+        .border(.red)
     }
 }
 
